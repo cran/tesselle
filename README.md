@@ -12,10 +12,24 @@
 <a href="https://tesselle.r-universe.dev" class="pkgdown-devel"><img
 src="https://tesselle.r-universe.dev/badges/tesselle"
 alt="r-universe" /></a>
+<a href="https://cran.r-project.org/package=tesselle"
+class="pkgdown-release"><img
+src="http://www.r-pkg.org/badges/version/tesselle"
+alt="CRAN Version" /></a> <a
+href="https://cran.r-project.org/web/checks/check_results_tesselle.html"
+class="pkgdown-release"><img
+src="https://cranchecks.info/badges/worst/tesselle"
+alt="CRAN checks" /></a>
+<a href="https://cran.r-project.org/package=tesselle"
+class="pkgdown-release"><img
+src="http://cranlogs.r-pkg.org/badges/tesselle"
+alt="CRAN Downloads" /></a>
 
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6500491.svg)](https://doi.org/10.5281/zenodo.6500491)
 <!-- badges: end -->
 
 ## Overview
@@ -53,8 +67,8 @@ remotes::install_github("tesselle/tesselle")
 
 `library(tesselle)` will load the core packages:
 
--   [**tabula**](https://packages.tesselle.org/tabula/): analysis,
-    seriation and visualization of archaeological count data;
+-   [**tabula**](https://packages.tesselle.org/tabula/): analysis and
+    visualization of archaeological count data;
 -   [**kairos**](https://packages.tesselle.org/kairos/): analysis of
     chronological patterns from archaeological count data;
 -   [**khroma**](https://packages.tesselle.org/khroma/): colour schemes
@@ -63,9 +77,9 @@ remotes::install_github("tesselle/tesselle")
 ``` r
 library(tesselle)
 #> --- Attaching packages -------------------------------------------- tesselle ---
-#> * tabula    1.6.1
-#> * kairos    1.0.1
-#> * khroma    1.8.0
+#> * tabula    1.7.0
+#> * kairos    1.1.0
+#> * khroma    1.9.0
 ```
 
 ## Contributing

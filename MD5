@@ -1,10 +1,10 @@
-974b5bf92b54c6dacbf819a4ee6944a4 *DESCRIPTION
+f0a7f63d9b06dc4213e749472ccaae6a *DESCRIPTION
 dc21c19f0d6968ee25d441b2cf46017d *NAMESPACE
-9905778479abdde17b2e5a9e6b8946d7 *NEWS.md
+4db531a6b2eb0502ef47c6a3830a89c8 *NEWS.md
 1d012e75107ca0e8c8a23878e3e6e906 *R/attach.R
-b2ed1832323fa1a12c01b9a926856a61 *R/tesselle-package.R
+b318ed28c0f83c6ddd05d1738e3aaf4c *R/tesselle-package.R
 cca83d252361d0b6bfdaec2f8f37fc8f *R/utilities.R
 0410892927cb8ea529e18e93001dd346 *R/zzz.R
-5f64477177ea93d168b832359f007209 *README.md
+e73797b4cddb8cd441b73d93ed5de759 *README.md
 38414f754eff877378a246a6316bc47c *man/figures/logo.png
-426b1ec52792ca8e1214b3f52f7fbda7 *man/tesselle-package.Rd
+40df5e204226f60c3e4d6abe70a5eca6 *man/tesselle-package.Rd
