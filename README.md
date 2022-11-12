@@ -8,6 +8,7 @@
 [![R-CMD-check](https://github.com/tesselle/tesselle/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/tesselle/actions)
 [![codecov](https://codecov.io/gh/tesselle/tesselle/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tesselle/tesselle)
 [![CodeFactor](https://www.codefactor.io/repository/github/tesselle/tesselle/badge/main)](https://www.codefactor.io/repository/github/tesselle/tesselle/overview/main)
+[![Dependencies](https://tinyverse.netlify.com/badge/tesselle)](https://cran.r-project.org/package=tesselle)
 
 <a href="https://tesselle.r-universe.dev" class="pkgdown-devel"><img
 src="https://tesselle.r-universe.dev/badges/tesselle"
@@ -18,7 +19,7 @@ src="http://www.r-pkg.org/badges/version/tesselle"
 alt="CRAN Version" /></a> <a
 href="https://cran.r-project.org/web/checks/check_results_tesselle.html"
 class="pkgdown-release"><img
-src="https://cranchecks.info/badges/worst/tesselle"
+src="https://badges.cranchecks.info/worst/tesselle.svg"
 alt="CRAN checks" /></a>
 <a href="https://cran.r-project.org/package=tesselle"
 class="pkgdown-release"><img
@@ -77,8 +78,8 @@ remotes::install_github("tesselle/tesselle")
 ``` r
 library(tesselle)
 #> --- Attaching packages -------------------------------------------- tesselle ---
-#> * tabula    1.7.0
-#> * kairos    1.1.0
+#> * tabula    2.0.0
+#> * kairos    1.2.0
 #> * khroma    1.9.0
 ```
 
