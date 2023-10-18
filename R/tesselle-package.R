@@ -2,7 +2,7 @@
 #'  \tabular{ll}{
 #'   **Package:** \tab tesselle \cr
 #'   **Type:** \tab Package \cr
-#'   **Version:** \tab 1.2.0 \cr
+#'   **Version:** \tab 1.3.0 \cr
 #'   **License:** \tab GPL-3 \cr
 #'  }
 #'
@@ -30,13 +30,12 @@
 #' @keywords internal
 "_PACKAGE"
 
-# Suppress R CMD check note
-# ("All declared Imports should be used.")
+# Suppress R CMD check note "All declared Imports should be used."
 unused <- function() {
-  arkhe::is_empty
   dimensio::ca
   folio::arnold1949
   kairos::mcd
-  khroma::colour
+  khroma::color
   tabula::heterogeneity
+  isopleuros::ternary_plot
 }
