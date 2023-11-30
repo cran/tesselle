@@ -2,7 +2,7 @@
 #'  \tabular{ll}{
 #'   **Package:** \tab tesselle \cr
 #'   **Type:** \tab Package \cr
-#'   **Version:** \tab 1.3.0 \cr
+#'   **Version:** \tab 1.4.0 \cr
 #'   **License:** \tab GPL-3 \cr
 #'  }
 #'
@@ -34,8 +34,9 @@
 unused <- function() {
   dimensio::ca
   folio::arnold1949
+  isopleuros::ternary_plot
   kairos::mcd
   khroma::color
+  nexus::as_composition
   tabula::heterogeneity
-  isopleuros::ternary_plot
 }
