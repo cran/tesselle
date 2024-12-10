@@ -1,3 +1,13 @@
+# tesselle 1.5.0
+
+* Import **dimensio** >= 0.10.1
+* Import **folio** >= 1.5.0
+* Import **isopleuros** >= 1.3.0
+* Import **kairos** >= 2.2.0
+* Import **khroma** >= 1.14.0
+* Import **nexus** >= 0.3.0
+* Import **tabula** >= 3.1.1
+
 # tesselle 1.4.0
 
 * Import **dimensio** >= 0.5.0
