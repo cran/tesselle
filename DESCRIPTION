@@ -1,13 +1,15 @@
 Package: tesselle
 Title: Easily Install and Load 'tesselle' Packages
-Version: 1.5.0
+Version: 1.6.0
 Authors@R: c(
     person("Nicolas", "Frerebeau", , "nicolas.frerebeau@u-bordeaux-montaigne.fr", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-5759-4944")),
-    person("Brice", "Lebrun", , "brice.lebrun@u-bordeaux-montaigne.fr", role = "ctb",
+    person("Brice", "Lebrun", role = "art",
            comment = c(ORCID = "0000-0001-7503-8685", "Logo designer")),
-    person("Université Bordeaux Montaigne", role = "fnd"),
-    person("CNRS", role = "fnd")
+    person("Université Bordeaux Montaigne", role = "fnd",
+           comment = c(ROR = "03pbgwk21")),
+    person("CNRS", role = "fnd",
+           comment = c(ROR = "02feahw73"))
   )
 Maintainer: Nicolas Frerebeau <nicolas.frerebeau@u-bordeaux-montaigne.fr>
 Description: Easy install and load key packages from the 'tesselle' suite
@@ -20,20 +22,24 @@ Description: Easy install and load key packages from the 'tesselle' suite
     archaeology: count data, compositional data and chronological data.
     Learn more about 'tesselle' at <https://www.tesselle.org>.
 License: GPL (>= 3)
-URL: https://github.com/tesselle/tesselle,
+URL: https://codeberg.org/tesselle/tesselle,
         https://packages.tesselle.org/tesselle/
-BugReports: https://github.com/tesselle/tesselle/issues
-Imports: dimensio (>= 0.10.1), folio (>= 1.5.0), isopleuros (>= 1.3.0),
-        kairos (>= 2.2.0), khroma (>= 1.14.0), nexus (>= 0.3.0), tabula
-        (>= 3.1.1)
+BugReports: https://codeberg.org/tesselle/tesselle/issues
+Imports: dimensio (>= 0.13.0), folio (>= 1.5.0), isopleuros (>= 1.4.0),
+        kairos (>= 2.2.1), khroma (>= 1.16.0), nexus (>= 0.5.0), tabula
+        (>= 3.2.1)
 Encoding: UTF-8
 RoxygenNote: 7.3.2
+X-schema.org-applicationCategory: Archaeological Science
+X-schema.org-isPartOf: https://www.tesselle.org
+X-schema.org-keywords: archaeological-science, archaeology, statistics,
+        r-package
 NeedsCompilation: no
-Packaged: 2024-12-10 14:43:01 UTC; nicolas
+Packaged: 2025-04-28 13:18:50 UTC; nfrerebeau
 Author: Nicolas Frerebeau [aut, cre] (<https://orcid.org/0000-0001-5759-4944>),
-  Brice Lebrun [ctb] (<https://orcid.org/0000-0001-7503-8685>, Logo
+  Brice Lebrun [art] (<https://orcid.org/0000-0001-7503-8685>, Logo
     designer),
-  Université Bordeaux Montaigne [fnd],
-  CNRS [fnd]
+  Université Bordeaux Montaigne [fnd] (03pbgwk21),
+  CNRS [fnd] (02feahw73)
 Repository: CRAN
-Date/Publication: 2024-12-10 15:00:02 UTC
+Date/Publication: 2025-04-28 13:40:01 UTC

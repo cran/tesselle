@@ -14,16 +14,16 @@ Easy install and load key packages from the 'tesselle' suite in a single step. T
 \tabular{ll}{
 \strong{Package:} \tab tesselle \cr
 \strong{Type:} \tab Package \cr
-\strong{Version:} \tab 1.5.0 \cr
+\strong{Version:} \tab 1.6.0 \cr
 \strong{License:} \tab GPL-3 \cr
 }
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/tesselle/tesselle}
+  \item \url{https://codeberg.org/tesselle/tesselle}
   \item \url{https://packages.tesselle.org/tesselle/}
-  \item Report bugs at \url{https://github.com/tesselle/tesselle/issues}
+  \item Report bugs at \url{https://codeberg.org/tesselle/tesselle/issues}
 }
 
 }

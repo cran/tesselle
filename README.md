@@ -5,9 +5,8 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/tesselle/tesselle/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/tesselle/actions)
-[![codecov](https://codecov.io/gh/tesselle/tesselle/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tesselle/tesselle)
-[![CodeFactor](https://www.codefactor.io/repository/github/tesselle/tesselle/badge/main)](https://www.codefactor.io/repository/github/tesselle/tesselle/overview/main)
+[![Code
+coverage](https://packages.tesselle.org/tesselle/coverage/badge.svg)](https://packages.tesselle.org/tesselle/coverage/)
 [![Dependencies](https://tinyverse.netlify.app/badge/tesselle)](https://cran.r-project.org/package=tesselle)
 
 <a href="https://tesselle.r-universe.dev/tesselle"
@@ -55,13 +54,13 @@ To cite tesselle in publications use:
 
 Frerebeau N (2024). “The tesselle Project: a Collection of R Packages
 for Research and Teaching in Archaeology.” *Advances in Archaeological
-Practice*. <doi:10.1017/aap.2024.10>
+Practice*, *12*(4), 424-430. <doi:10.1017/aap.2024.10>
 <https://doi.org/10.1017/aap.2024.10>.
 
-Frerebeau N (2024). *tesselle: Easily Install and Load ‘tesselle’
+Frerebeau N (2025). *tesselle: Easily Install and Load ‘tesselle’
 Packages*. Université Bordeaux Montaigne, Pessac, France.
 <doi:10.5281/zenodo.6500491> <https://doi.org/10.5281/zenodo.6500491>, R
-package version 1.5.0, <https://packages.tesselle.org/tesselle/>.
+package version 1.6.0, <https://packages.tesselle.org/tesselle/>.
 
 This package is a part of the tesselle project
 <https://www.tesselle.org>.
@@ -75,11 +74,11 @@ You can install the released version of **tesselle** from
 install.packages("tesselle")
 ```
 
-And the development version from [GitHub](https://github.com/) with:
+And the development version from [Codeberg](https://codeberg.org/) with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("tesselle/tesselle")
+remotes::install_git("https://codeberg.org/tesselle/tesselle")
 ```
 
 ## Usage
@@ -102,12 +101,12 @@ And two companion packages:
 
 ``` r
 library(tesselle)
-#> --- Attaching packages -------------------------------------- tesselle 1.5.0 ---
-#> * dimensio    0.10.1
-#> * isopleuros  1.3.0
-#> * kairos      2.2.0
-#> * nexus       0.3.0
-#> * tabula      3.1.1
+#> --- Attaching packages -------------------------------------- tesselle 1.6.0 ---
+#> * dimensio    0.13.0
+#> * isopleuros  1.4.0
+#> * kairos      2.2.1
+#> * nexus       0.5.0
+#> * tabula      3.2.1
 ```
 
 ## Contributing
